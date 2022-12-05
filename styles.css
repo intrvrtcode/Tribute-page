@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E3E1;
+    color: #AD4A2B;
+    box-sizing: border-box;
+}
+
+header h1{
+    padding-top: 20px;
+    margin: 0;
+}
+
+header p {
+   margin-top: .5em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#img-caption {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+figure {
+    background-color: white;
+    padding: 2em;
+}
+
+main {
+    background-color: #F7C7B1;
+    max-width: 96%;
+    margin: 2% auto;
+    border-radius: 0.5em;
+    padding: 30px 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #tribute-info {
+      margin: 0 auto;
+  }
+
+  #tribute-info ul li {
+      margin-bottom: 15px;
+  }
+
+  .no-full {
+    width: 70%;
+  }
+
+  #quote {
+      margin: 30px auto;
+      border-left: 5px groove #E6E3E1;
+      padding: 20px;
+      max-width: 80%;
+  }
+
+  q {
+      display: block;
+      text-align: justify;
+      margin-bottom: 10px;
+  }
+
+  #link {
+      margin: 0 auto;
+      text-align: center;
+  }
+
+#link h4 a {
+      text-decoration: none;
+  }
+
+#link h4 a:hover {
+    color: #378BA4;
+  }
+
+  @media (min-width: 768px) {
+      #img-caption {
+          max-width: 80%;
+          margin: 30px auto;
+          text-align: center;
+      }
+  }
+
+  footer p {
+      color: #378BA4;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1em;
+      text-align: center;
+  }
+
+  footer p a{
+    color: #378BA4;
+  }
+
+
